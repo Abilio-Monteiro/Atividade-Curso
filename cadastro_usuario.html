@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Cadastro de Usuários</h2>
+        <nav>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="comprar.html">Comprar</a></li>
+            <li><a href="cadastro.html">Cadastro</a></li>
+            <li><a href="admin.html">Admin</a></li>
+        </nav>
+        <hr> 
+        <form>
+            <label for="nome-usuario">Nome do Usuário:</label><br>
+            <input type="text" id="nome-usuario" name="nome-usuario"><br><br>
+            <label for="email-usuario">E-mail:</label><br>
+            <input type="email" id="email-usuario" name="email-usuario" required="@"><br><br>
+            <input type="submit" value="Cadastrar" class="btn">
+        </form>
+       
+        <h3>Lista de Usuários Cadastrados</h3>
+         <hr>
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>E-mail</th>
+                <th>Ações</th>
+            </tr>
+            <tr>
+                <td>Abilio</td>
+                <td>abilio@gmail.com</td>
+                <td>
+                    <button class="btn">Editar</button>
+                    <button class="btn delete">Apagar</button>
+                </td>
+            </tr>
+        </table>
+        <hr>
+    </div>
+        <footer>
+            Desenvolvido por Abilio <a href="politica_privacidade.html">Politica de Privacidade</a>
+        </footer>
+</body>
+</html>
