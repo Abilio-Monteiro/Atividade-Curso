@@ -1,0 +1,53 @@
+.container{
+    background-position: top center;
+    height: 60px;
+    width: auto;
+    margin: -20px;
+    padding: 40px;
+    padding-top: 40px;
+    background-color: #a44040;  
+}
+
+.nav a {
+    display: inline-block;   
+    margin: 20px 15px; 
+    text-align: left;         
+    text-decoration: none;   
+    color: black;   
+}        
+
+.cabecalho{
+    background-position: top center;
+    height: 60px;
+    width: auto;
+    margin: -20px;
+    padding: 40px;
+    padding-top: 40px;
+   background-color: #a44040;
+}
+
+.nav1 a {
+    display: inline-block;
+    margin: 20px 15px;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+}
+
+.cabecalho1{
+    background-position: top center;
+    height: 60px;
+    width: auto;
+    margin: -20px;
+    padding: 40px;
+    padding-top: 40px;
+    background-color: #a44040;
+}
+
+.navegacao a {
+   display: inline-block;
+   margin: 20px 15px;
+   text-align: left;
+   text-decoration: none;
+   color: black;
+}
